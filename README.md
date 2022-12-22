@@ -20,7 +20,7 @@ yarn build
 yarn watch
 ```
 
-## Running the wCCD example in Windows
+## Running the wCCD example on Windows
 
 ```
 yarn
@@ -29,7 +29,7 @@ yarn start
 
 Open http://127.0.0.1:8080 in your browser.
 
-## Deploy on hosting server
+## Deploy on hosting server on Windows or Ubuntu 20.04
 ```
 firebase init
 select dist folder to upload
