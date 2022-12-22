@@ -6,9 +6,21 @@ The example project included in this repository serves as a working example of h
 
 -   Browser wallet extension must be installed in google chrome and configured with testnet JSON-RPC, in order to view smart contract details or submit transactions.
 
+## Issue
+On Windows, it can't build because something went wrong.
+On Ubuntu, because line ending issue, it was fail.
+On Ubuntu, it will build.
+On Windows, it is working.
+
+## Build on Ubuntu 20.04
+
+```
+yarn
+yarn build
+yarn watch
+```
+
 ## Running the wCCD example in Windows
-On ubuntu, because line ending issue, it was fail.
-This is working on Windows 10
 
 ```
 yarn
